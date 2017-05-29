@@ -11,4 +11,4 @@ Just type `^ + ⌥ + ⌘ + C` (or your defined shortcut) and the mouse cursor wi
 ![Example](screenshots/example.gif)
 
 ## Installation
-Download the [alfred-center-pointer-on-active-window-workflow.alfredworkflow](alfred-center-pointer-on-active-window-workflow.alfredworkflow?raw=true) and import to Alfred 3 and set a shortcut, for example `^ + ⌥ + ⌘ + C`.
+Download the [center-pointer-on-active-window.alfredworkflow](center-pointer-on-active-window.alfredworkflow?raw=true) and import to Alfred 3 and set a shortcut, for example `^ + ⌥ + ⌘ + C`.

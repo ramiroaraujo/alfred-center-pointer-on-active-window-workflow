@@ -170,7 +170,9 @@ echo "$x,$y";
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Simple workflow to center the mouse/trackpad pointer into the current window. Specially handy for multi-monitor setups.</string>
+	<string>Simple workflow to center the mouse/trackpad pointer into the current window. Specially handy for multi-monitor setups.
+
+Make sure to have accesibility permissions for Alfred set correctly, and define a hotkey for the workflow, for example `^ + ⌥ + ⌘ + C`.</string>
 	<key>uidata</key>
 	<dict>
 		<key>658E5F7D-D643-48E6-8E2C-FF5999300568</key>
