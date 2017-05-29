@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.tumblr.ramiroaraujo.center-pointer-on-active-window</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>658E5F7D-D643-48E6-8E2C-FF5999300568</key>
@@ -49,7 +51,7 @@
 	<key>createdby</key>
 	<string>Ramiro Araujo</string>
 	<key>description</key>
-	<string></string>
+	<string>Shortcut driven workflow to center the mouse curson on the currenctly active window</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -115,6 +117,29 @@ echo "$x,$y";
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./cliclick m:$1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B7A61C09-7B9F-4801-A2BE-6A829D0EDD1A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -143,32 +168,9 @@ echo "$x,$y";
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./cliclick m:$1</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>B7A61C09-7B9F-4801-A2BE-6A829D0EDD1A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Simple workflow to center the mouse/trackpad pointer into the current window. Specially handy for multi-monitor setups.</string>
 	<key>uidata</key>
 	<dict>
 		<key>658E5F7D-D643-48E6-8E2C-FF5999300568</key>
@@ -200,6 +202,8 @@ echo "$x,$y";
 			<integer>170</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
